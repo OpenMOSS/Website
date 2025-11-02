@@ -557,10 +557,15 @@ nav.navbar {
 }
 
 .footer-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 32px;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
+  gap: 24px;
+}
+
+.footer-grid > div {
+  flex: 1;
+  min-width: 0;
 }
 
 .footer-grid > div:last-child {
@@ -625,7 +630,11 @@ nav.navbar {
   }
 
   .footer-grid {
-    grid-template-columns: repeat(2, 1fr);
+    flex-wrap: wrap;
+  }
+  
+  .footer-grid > div {
+    flex: 0 0 calc(50% - 12px);
   }
 }
 
@@ -709,7 +718,15 @@ nav.navbar {
   }
 
   .footer-grid {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+  }
+  
+  .footer-grid > div {
+    flex: 1 1 auto;
+  }
+  
+  .footer-grid > div:last-child {
+    text-align: left;
   }
 }
 
