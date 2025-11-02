@@ -542,12 +542,12 @@ nav.navbar {
 
 .cta-content p {
   color: rgba(255, 255, 255, 0.85);
-  max-width: 520px;
 }
 
 .cta-actions {
   display: flex;
   gap: 16px;
+  flex-shrink: 0;
 }
 
 .footer {
@@ -558,8 +558,9 @@ nav.navbar {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  width: 100%;
 }
 
 .footer h4 {
@@ -612,6 +613,10 @@ nav.navbar {
 
   .cta-actions {
     flex-wrap: wrap;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -692,6 +697,10 @@ nav.navbar {
 
   .member-title {
     font-size: 13px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
   }
 }
 
