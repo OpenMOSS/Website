@@ -287,7 +287,7 @@
       'hero.subtitle': 'OpenMOSS Lab',
       'hero.title': 'Building trustworthy, open foundation models that serve society.',
       'hero.description': 'The OpenMOSS team focuses on open, verifiable, and responsible artificial intelligence research. We study the development patterns of large-scale intelligent systems and are committed to building a complete research framework from fundamental theory, training methods to system implementation. Our key research areas include pre-training models, reasoning and alignment, multimodal understanding, embodied intelligence, and agent collaboration.<br><br>Our core objective is to advance the trustworthy evolution and widespread deployment of AI, transforming cutting-edge research into technological foundations that enhance productivity, promote social development, and expand human capabilities. We adhere to open collaboration and long-termism, conducting deep research partnerships with world-class universities and leading enterprises.<br><br>Our team members have solid expertise in artificial intelligence. Our graduates work or pursue further studies at top universities such as MIT, UC Berkeley, and CMU, join leading companies like ByteDance, Alibaba, AWS, and Optiver, engage in innovation and entrepreneurship, or take up academic faculty positions, forming a vibrant academic and innovation ecosystem.',
-      'hero.cta1': 'Join Us',
+      'hero.cta1': 'Join us',
       'hero.cta2': 'Highlights',
       'hero.focus.title': 'What We Focus On',
       'hero.focus.item1': 'Open-source foundation models',
