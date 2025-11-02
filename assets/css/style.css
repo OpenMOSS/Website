@@ -560,18 +560,12 @@ nav.navbar {
 .footer-grid {
   display: grid !important;
   grid-template-columns: repeat(4, 1fr) !important;
-  column-gap: 48px !important;
+  column-gap: 60px !important;
   width: 100% !important;
 }
 
 .footer-grid > div {
   box-sizing: border-box !important;
-}
-
-.footer-grid > div:last-child {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: flex-end !important;
 }
 
 .footer-grid > div:last-child h4 {
