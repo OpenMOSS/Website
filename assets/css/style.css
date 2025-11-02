@@ -533,6 +533,11 @@ nav.navbar {
   padding: 60px 0;
 }
 
+.cta-band .container {
+  padding: 0 !important;
+  margin: 0 auto;
+}
+
 .cta-content {
   display: flex;
   align-items: center;
@@ -556,24 +561,30 @@ nav.navbar {
   padding: 48px 0 16px;
 }
 
-.footer-grid {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  gap: 24px;
+.footer .container {
+  padding: 0 !important;
+  margin: 0 auto;
 }
 
-.footer-grid > div {
-  flex: 1;
-  min-width: 0;
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 24px;
+  width: 100%;
 }
 
 .footer-grid > div:last-child {
-  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-.footer-grid > div:last-child h4,
+.footer-grid > div:last-child h4 {
+  align-self: flex-end;
+}
+
 .footer-grid > div:last-child ul {
+  align-self: flex-end;
   text-align: right;
 }
 
