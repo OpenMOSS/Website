@@ -558,30 +558,34 @@ nav.navbar {
 }
 
 .footer-grid {
-  display: flex;
-  width: 100%;
-  gap: 0;
+  display: flex !important;
+  width: 100% !important;
+  gap: 0 !important;
+  justify-content: flex-start !important;
 }
 
 .footer-grid > div {
-  flex: 0 0 25%;
-  width: 25%;
+  flex: 0 0 25% !important;
+  width: 25% !important;
+  max-width: 25% !important;
+  min-width: 25% !important;
+  box-sizing: border-box !important;
 }
 
 .footer-grid > div:last-child {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-end !important;
 }
 
 .footer-grid > div:last-child h4 {
-  text-align: right;
-  width: auto;
+  text-align: right !important;
+  width: auto !important;
 }
 
 .footer-grid > div:last-child ul {
-  text-align: right;
-  width: auto;
+  text-align: right !important;
+  width: auto !important;
 }
 
 .footer h4 {
@@ -638,7 +642,14 @@ nav.navbar {
   }
 
   .footer-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  
+  .footer-grid > div {
+    flex: 0 0 50% !important;
+    width: 50% !important;
+    max-width: 50% !important;
+    min-width: 50% !important;
   }
 }
 
@@ -722,17 +733,23 @@ nav.navbar {
   }
 
   .footer-grid {
-    grid-template-columns: 1fr;
+    flex-direction: column !important;
+  }
+  
+  .footer-grid > div {
+    flex: 1 1 auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
   }
   
   .footer-grid > div:last-child {
-    align-items: flex-start;
+    align-items: flex-start !important;
   }
   
   .footer-grid > div:last-child h4,
   .footer-grid > div:last-child ul {
-    align-self: flex-start;
-    text-align: left;
+    text-align: left !important;
   }
 }
 
@@ -929,3 +946,4 @@ h3.year-badge {
     font-size: 13px;
   }
 }
+
