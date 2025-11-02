@@ -384,6 +384,11 @@ nav.navbar {
   background-color: var(--mist);
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
+  scroll-margin-top: 56px;
+}
+
+#people, #resources {
+  scroll-margin-top: 56px;
 }
 
 .pillars-grid {
@@ -912,3 +917,4 @@ h3.year-badge {
     font-size: 13px;
   }
 }
+
