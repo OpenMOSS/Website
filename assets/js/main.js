@@ -124,7 +124,6 @@
       'join.title': '加入 OpenMOSS Lab',
       'join.desc': '我们正在招募对开放系统和负责任 AI 充满热情的研究生、博士后、访问学者和合作者。',
       'join.positions': '开放职位',
-      'join.contact': '联系邱教授',
 
       'footer.address1': '上海市徐汇区华发路699弄3号',
       'footer.address2': '上海市杨浦区淞沪路2005号2X号楼',
@@ -381,7 +380,6 @@
       'join.title': 'Join OpenMOSS Lab',
       'join.desc': 'We are recruiting graduate students, postdocs, visiting researchers, and collaborators who are passionate about open systems and responsible AI.',
       'join.positions': 'Open positions',
-      'join.contact': 'Contact Prof. Qiu',
 
       'footer.address1': '3 Lane 699, Huafa Road, Xuhui District',
       'footer.address2': 'Building 2X, No. 2005 Songhu Road, Yangpu District',
