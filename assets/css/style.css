@@ -559,12 +559,22 @@ nav.navbar {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  column-gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0;
   width: 100%;
+  justify-items: stretch;
+}
+
+.footer-grid > div {
+  padding: 0 20px;
+}
+
+.footer-grid > div:first-child {
+  padding-left: 0;
 }
 
 .footer-grid > div:last-child {
+  padding-right: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
