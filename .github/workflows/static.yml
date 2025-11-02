@@ -17,17 +17,15 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    outputs:
-      artifact-name: github-pages
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      # 如果你有额外的 build 步骤，请在这里加入
+      # 如果 assets 文件夹下有 build 步骤可在这里加
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           name: github-pages
-          path: '.'    # 如果你只想上传 assets 文件夹，可以改为 path: 'assets'
+          path: './assets'    # 只上传你 assets 文件夹里的内容
 
   deploy:
     needs: build
@@ -40,4 +38,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          artifact_name: ${{ needs.build.outputs["artifact-name"] }}
+          artifact_name: github-pages
