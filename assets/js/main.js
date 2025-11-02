@@ -183,6 +183,16 @@
       'alumniPage.backPeople': '查看团队成员',
       'alumniPage.backHome': '返回首页',
 
+      // Webmaster Page
+      'webmasterPage.breadcrumb.home': '首页',
+      'webmasterPage.breadcrumb.webmaster': '网页设计',
+      'webmasterPage.title': '网页设计',
+      'webmasterPage.member1.name': '郑逸宁',
+      'webmasterPage.member1.role': '网页设计师',
+      'webmasterPage.member2.name': '贺心嘉',
+      'webmasterPage.member2.role': '网页设计师',
+      'webmasterPage.backHome': '返回首页',
+
       // Positions Page
       'positionsPage.title': '加入 OpenMOSS Lab',
       'positionsPage.intro': '我们正在招募对开放系统和负责任 AI 充满热情的研究人员和工程师。如果您希望在大规模 AI 系统、多模态学习、具身智能等前沿领域进行研究，欢迎加入我们！',
@@ -439,6 +449,16 @@
       'alumniPage.network.contact': 'To update your contact information or learn about alumni activities, please contact: <a href="mailto:xpqiu@fudan.edu.cn">xpqiu@fudan.edu.cn</a>',
       'alumniPage.backPeople': 'View Team Members',
       'alumniPage.backHome': 'Back to Home',
+
+      // Webmaster Page
+      'webmasterPage.breadcrumb.home': 'Home',
+      'webmasterPage.breadcrumb.webmaster': 'Webmaster',
+      'webmasterPage.title': 'Webmaster',
+      'webmasterPage.member1.name': 'Yining Zheng',
+      'webmasterPage.member1.role': 'Web Designer',
+      'webmasterPage.member2.name': 'Xinjia He',
+      'webmasterPage.member2.role': 'Web Designer',
+      'webmasterPage.backHome': 'Back to Home',
 
       // Positions Page
       'positionsPage.title': 'Join OpenMOSS Lab',
