@@ -76,7 +76,7 @@
       'pillars.arch.item3': '自适应 KV-cache 设计',
 
       'highlights.title': '最新亮点',
-      'highlights.viewMore': '查看更多亮点',
+      'highlights.viewMore': '点击查看',
       'highlights.opensource.title': '开源领导力',
       'highlights.opensource.desc': '我们发布了 <strong>MOSS</strong>——中国最早的开放对话式大语言模型之一，并持续推动以社区为先的开发，提供开放数据、基准和 API。',
       'highlights.industry.title': '产业影响',
@@ -333,7 +333,7 @@
       'pillars.arch.item3': 'Adaptive KV-cache designs',
 
       'highlights.title': 'Latest Highlights',
-      'highlights.viewMore': 'View More Highlights',
+      'highlights.viewMore': 'Click to View',
       'highlights.opensource.title': 'Open Source Leadership',
       'highlights.opensource.desc': 'We released <strong>MOSS</strong>, one of China\'s earliest open conversational LLMs, and continue to drive community-first development with open data, benchmarks, and APIs.',
       'highlights.industry.title': 'Industry Impact',
