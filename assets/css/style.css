@@ -235,6 +235,13 @@ nav.navbar {
 .hero-full .lead {
   max-width: 100%;
   margin-bottom: 32px;
+  line-height: 1.8;
+}
+
+.hero-full .lead br {
+  content: "";
+  display: block;
+  margin-bottom: 12px;
 }
 
 .eyebrow {
@@ -384,11 +391,11 @@ nav.navbar {
   background-color: var(--mist);
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
-  scroll-margin-top: 56px;
+  scroll-margin-top: 110px;
 }
 
 #people, #resources {
-  scroll-margin-top: 56px;
+  scroll-margin-top: 110px;
 }
 
 .pillars-grid {
