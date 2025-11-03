@@ -1,7 +1,6 @@
 // OpenMOSS Lab 校友页面主要逻辑
 // 负责渲染校友数据和处理交互
 
-
 (function () {
   'use strict';
 
@@ -15,10 +14,19 @@
     const langKey = lang === 'zh-CN' ? 'zh' : 'en';
     const name = alumni.name[langKey] || alumni.name.zh;
     const destination = alumni.destination ? (alumni.destination[langKey] || alumni.destination.zh || '') : '';
+    const homepage = alumni.homepage;
+
+    // 如果有个人主页，名字变为可点击链接
+    let nameHtml = '';
+    if (homepage) {
+      nameHtml = `<a href="${homepage}" target="_blank" rel="noopener noreferrer" class="alumni-name-link">${name}</a>`;
+    } else {
+      nameHtml = `<span>${name}</span>`;
+    }
 
     return `
       <div class="alumni-row">
-        <span class="name">${name}</span>
+        <span class="name">${nameHtml}</span>
         <span class="destination">${destination}</span>
       </div>
     `;
@@ -90,5 +98,3 @@
   }, 500);
 
 })();
-
-
