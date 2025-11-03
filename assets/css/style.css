@@ -412,13 +412,18 @@ nav.navbar {
   box-shadow: 0 10px 24px var(--shadow-color);
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0;
 }
 
 .pillar-card h3 {
   min-height: 3em;
   display: flex;
   align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.pillar-card p {
+  margin-top: 0;
 }
 
 .highlight-grid {
@@ -569,6 +574,7 @@ nav.navbar {
   min-height: 2.4em;
   line-height: 1.2;
   margin-bottom: 12px;
+  margin-top: 0;
 }
 
 .resource-card p {
