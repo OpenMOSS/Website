@@ -827,6 +827,20 @@ nav.navbar {
   font-weight: 300;
 }
 
+/* Alumni name links styling (similar to member-name-link in people page) */
+.alumni-name-link {
+  color: var(--fudan-blue);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.alumni-name-link:hover {
+  color: var(--text-soft);
+  transform: scale(1.05);
+}
+
 /* Floating sidebar (Table of Contents) */
 .toc-sidebar {
   position: fixed;
