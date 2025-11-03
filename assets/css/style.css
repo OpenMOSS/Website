@@ -419,16 +419,10 @@ nav.navbar {
   min-height: 3em;
   display: flex;
   align-items: flex-start;
-  margin-bottom: 12px;
 }
 
 .pillar-card p {
   margin-top: 0;
-}
-
-/* 中文页面：缩小标题和描述的间距，与people-card保持一致 */
-html[lang="zh-CN"] .pillar-card h3 {
-  margin-bottom: 12px;
 }
 
 .highlight-grid {
@@ -555,13 +549,6 @@ html[lang="zh-CN"] .pillar-card h3 {
   box-shadow: 0 8px 20px var(--shadow-color);
 }
 
-.people-card h3 {
-  margin-bottom: 12px;
-}
-
-.people-card p {
-  margin-top: 0;
-}
 
 .people-card .link {
   font-weight: 500;
@@ -586,18 +573,12 @@ html[lang="zh-CN"] .pillar-card h3 {
 .resource-card h3 {
   min-height: 2.4em;
   line-height: 1.2;
-  margin-bottom: 12px;
   margin-top: 0;
 }
 
 .resource-card p {
   flex-grow: 1;
   margin-bottom: 15px;
-}
-
-/* 中文页面：缩小标题和描述的间距，与people-card保持一致 */
-html[lang="zh-CN"] .resource-card h3 {
-  margin-bottom: 12px;
 }
 
 .resource-card > div {
