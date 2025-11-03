@@ -425,14 +425,14 @@ nav.navbar {
   margin-top: 0;
 }
 
-/* 中文版：所有6个研究方向框的标题间距改为3px */
+/* 中文版：所有6个研究方向框的标题间距改为0px */
 html[lang="zh-CN"] .pillar-card h3 {
-  margin-bottom: 3px;
+  margin-bottom: 0px;
 }
 
-/* 英文版：只有后3个研究方向框（第4、5、6个）的标题间距改为3px */
+/* 英文版：只有后3个研究方向框（第4、5、6个）的标题间距改为0px */
 html[lang="en"] .pillar-card:nth-child(n+4) h3 {
-  margin-bottom: 3px;
+  margin-bottom: 0px;
 }
 
 .highlight-grid {
