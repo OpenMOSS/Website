@@ -425,14 +425,14 @@ nav.navbar {
   margin-top: 0;
 }
 
-/* 中文版：所有6个研究方向框的标题间距改为6px */
+/* 中文版：所有6个研究方向框的标题间距改为4px */
 html[lang="zh-CN"] .pillar-card h3 {
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
-/* 英文版：只有后3个研究方向框（第4、5、6个）的标题间距改为6px */
+/* 英文版：只有后3个研究方向框（第4、5、6个）的标题间距改为4px */
 html[lang="en"] .pillar-card:nth-child(n+4) h3 {
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .highlight-grid {
@@ -559,6 +559,13 @@ html[lang="en"] .pillar-card:nth-child(n+4) h3 {
   box-shadow: 0 8px 20px var(--shadow-color);
 }
 
+.people-card h3 {
+  margin-bottom: 4px;
+}
+
+.people-card p {
+  margin-top: 0;
+}
 
 .people-card .link {
   font-weight: 500;
@@ -591,14 +598,14 @@ html[lang="en"] .pillar-card:nth-child(n+4) h3 {
   margin-bottom: 15px;
 }
 
-/* 中文版：资源与软件的3个框的标题间距改为6px */
+/* 中文版：资源与软件的3个框的标题间距改为4px */
 html[lang="zh-CN"] .resource-card h3 {
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
-/* 英文版：Resources & Software的3个框的标题间距改为6px */
+/* 英文版：Resources & Software的3个框的标题间距改为4px */
 html[lang="en"] #resources .resource-card h3 {
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .resource-card > div {
@@ -1001,3 +1008,4 @@ h3.year-badge {
     font-size: 13px;
   }
 }
+
