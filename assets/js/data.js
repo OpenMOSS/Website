@@ -93,7 +93,8 @@ const teamData = {
                 zh: '专任副研究员',
                 en: 'Associate Research Fellow'
             },
-            photo: 'assets/img/Shuang Chen.jpg'
+            photo: 'assets/img/Shuang Chen.jpg',
+            homepage: 'https://scholar.google.com/citations?user=epJpBtYAAAAJ&hl=zh-CN'
         },
         {
             id: 'yining-zheng',
