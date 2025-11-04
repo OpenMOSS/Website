@@ -32,19 +32,7 @@ const teamData = {
             },
             photo: 'assets/img/Xinchi Chen.jpg',
             email: 'chenxinchi@fudan.edu.cn',
-            homepage: 'https://dalstonchen.github.io/'
-        },
-        {
-            id: 'jinlan-fu',
-            name: {
-                zh: '傅金兰',
-                en: 'Jinlan Fu'
-            },
-            title: {
-                zh: '助理教授',
-                en: 'Assistant Professor'
-            },
-            photo: 'assets/img/Jinlan Fu.jpg'
+            homepage: 'https://ichn.xyz'
         },
         {
             id: 'tao-ji',
@@ -69,7 +57,8 @@ const teamData = {
                 zh: '研究助理教授',
                 en: 'Research Assistant Professor'
             },
-            photo: 'assets/img/Jingjing Gong.jpg'
+            photo: 'assets/img/Jingjing Gong.jpg',
+            homepage: 'https://jjgong.com'
         },
         {
             id: 'ziwei-he',
@@ -81,7 +70,8 @@ const teamData = {
                 zh: '研究助理教授',
                 en: 'Research Assistant Professor'
             },
-            photo: 'assets/img/Ziwei He.jpg'
+            photo: 'assets/img/Ziwei He.jpg',
+            homepage: 'https://scholar.google.com/citations?hl=en&user=3ii0orgAAAAJ'
         },
         {
             id: 'shuang-chen',
@@ -118,7 +108,30 @@ const teamData = {
 
     // 博士后
     postdocs: [
-        // 暂无数据
+        {
+            id: 'chujie-ma',
+            name: {
+                zh: '马楚婕',
+                en: 'Chujie Ma'
+            },
+            title: {
+                zh: '博士后',
+                en: 'Postdoctoral Researcher'
+            },
+            photo: 'assets/img/马楚婕.jpg'
+        },
+        {
+            id: 'xin-qi',
+            name: {
+                zh: '齐欣',
+                en: 'Xin Qi'
+            },
+            title: {
+                zh: '博士后',
+                en: 'Postdoctoral Researcher'
+            },
+            photo: 'assets/img/齐欣.jpg'
+        }
     ],
 
     // 博士研究生
