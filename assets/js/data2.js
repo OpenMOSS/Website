@@ -4,20 +4,20 @@
 const alumniData = {
     // 博士后校友
     postdocs: [
-        // 暂无数据
+        { name: { zh: '陈爽', en: 'Shuang Chen' }, destination: { zh: '复旦大学专任副研究员', en: 'Associate Research Fellow, Fudan University' }, homepage: 'https://scholar.google.com/citations?user=epJpBtYAAAAJ&hl=zh-CN' }
     ],
 
     // 博士生校友
     phd: [
-        { name: { zh: '陈新驰', en: 'Xinchi Chen' }, destination: { zh: '复旦大学青年研究员', en: 'Professor, Fudan University' }, homepage: 'https://dalstonchen.github.io/' },
-        { name: { zh: '龚经经', en: 'Jingjing Gong' }, destination: { zh: '腾讯', en: 'Tencent' }, homepage: null },
+        { name: { zh: '陈新驰', en: 'Xinchi Chen' }, destination: { zh: '复旦大学青年研究员', en: 'Professor, Fudan University' }, homepage: 'https://ichn.xyz' },
+        { name: { zh: '龚经经', en: 'Jingjing Gong' }, destination: { zh: '腾讯', en: 'Tencent' }, homepage: 'https://jjgong.com' },
         { name: { zh: '郭琦鹏', en: 'Qipeng Guo' }, destination: { zh: 'AWS上海AI实验室', en: 'AWS Shanghai AI Lab' }, homepage: 'https://scholar.google.com/citations?user=k3mPGKgAAAAJ&hl=en' },
         { name: { zh: '李林阳', en: 'Linyang Li' }, destination: { zh: '上海人工智能实验室', en: 'Shanghai AI Laboratory' }, homepage: 'https://www.aminer.cn/profile/56176bb745cedb3397bf2f78' },
         { name: { zh: '李孝男', en: 'Xiaonan Li' }, destination: { zh: '美国创业公司', en: 'USA Startup' }, homepage: null },
         { name: { zh: '李世民', en: 'Shimin Li' }, destination: { zh: '复旦大学博士研究生', en: 'PhD Student, Fudan University' }, homepage: 'https://openreview.net/profile?id=~Shimin_Li1' },
         { name: { zh: '刘鹏飞', en: 'Pengfei Liu' }, destination: { zh: '上海交通大学副教授', en: 'Associate Professor, Shanghai Jiao Tong University' }, homepage: 'https://plms.ai/people/index.html' },
-        { name: { zh: '刘向阳', en: 'Xiangyang Liu' }, destination: { zh: '创业 (Analemma)', en: 'Startup (Analemma)' }, homepage: 'https://scholar.google.com/citations?user=U8QD9mwAAAAJ&hl=en' },
-        { name: { zh: '孙天祥', en: 'Tianxiang Sun' }, destination: { zh: 'Analemma创始人兼CEO、上海创智学院助理教授', en: 'Founder & CEO of Analemma, Assistant Professor at SII' }, homepage: 'https://txsun1997.github.io/' },
+        { name: { zh: '刘向阳', en: 'Xiangyang Liu' }, destination: { zh: '日行迹', en: 'Analemma' }, homepage: 'https://scholar.google.com/citations?user=U8QD9mwAAAAJ&hl=en' },
+        { name: { zh: '孙天祥', en: 'Tianxiang Sun' }, destination: { zh: '日行迹创始人兼CEO、上海创智学院助理教授', en: 'Founder & CEO of Analemma, Assistant Professor at SII' }, homepage: 'https://txsun1997.github.io/' },
         { name: { zh: '颜航', en: 'Hang Yan' }, destination: { zh: '创业', en: 'Startup' }, homepage: 'https://dl.acm.org/profile/99659996992' },
         { name: { zh: '郑逸宁', en: 'Yining Zheng' }, destination: { zh: '复旦大学专任副研究员', en: 'Associate Research Fellow, Fudan University' }, homepage: 'https://github.com/WillQvQ' },
         { name: { zh: '周云华', en: 'Yunhua Zhou' }, destination: { zh: '上海人工智能实验室', en: 'Shanghai AI Laboratory' }, homepage: null }
@@ -28,7 +28,7 @@ const alumniData = {
         { name: { zh: '安晨鑫', en: 'Chenxin An' }, destination: { zh: '香港大学博士研究生', en: 'PhD Student, The University of Hong Kong' }, homepage: 'https://chenxinan-fdu.github.io/' },
         { name: { zh: '曹零', en: 'Ling Cao' }, destination: { zh: '阿里巴巴', en: 'Alibaba' }, homepage: null },
         { name: { zh: '常成', en: 'Cheng Chang' }, destination: { zh: '模思', en: 'OpenMOSS' }, homepage: 'https://scholar.google.com/citations?user=X7oyRLIAAAAJ&hl=en' },
-        { name: { zh: '陈科宇', en: 'Keyu Chen' }, destination: { zh: '', en: '' }, homepage: null },
+        { name: { zh: '陈科宇', en: 'Keyu Chen' }, destination: { zh: '宁波市奉化区发改局', en: 'Ningbo Fenghua Development and Reform Bureau' }, homepage: null },
         { name: { zh: '陈俊坤', en: 'Junkun Chen' }, destination: { zh: '微软', en: 'Microsoft' }, homepage: 'https://scholar.google.com/citations?user=cHLaJhUAAAAJ&hl=en' },
         { name: { zh: '陈怡然', en: 'Yiran Chen' }, destination: { zh: '字节跳动', en: 'ByteDance' }, homepage: null },
         { name: { zh: '陈云涛', en: 'Yuntao Chen' }, destination: { zh: '上海电网', en: 'Shanghai Electric Grid' }, homepage: null },
@@ -41,7 +41,7 @@ const alumniData = {
         { name: { zh: '何俊亮', en: 'Junliang He' }, destination: { zh: '字节跳动', en: 'ByteDance' }, homepage: null },
         { name: { zh: '洪嘉伟', en: 'Jiawei Hong' }, destination: { zh: '上海人工智能实验室', en: 'Shanghai AI Laboratory' }, homepage: null },
         { name: { zh: '胡先念', en: 'Xiannian Hu' }, destination: { zh: '阿里巴巴', en: 'Alibaba' }, homepage: null },
-        { name: { zh: '胡志峰', en: 'Zhifeng Hu' }, destination: { zh: '', en: '' }, homepage: null },
+        { name: { zh: '胡志峰', en: 'Zhifeng Hu' }, destination: { zh: '乾象投资', en: 'Qianxiang Investment' }, homepage: null },
         { name: { zh: '黄超超', en: 'Chaochao Huang' }, destination: { zh: '上汽集团', en: 'SAIC Motor' }, homepage: null },
         { name: { zh: '黄璐瑶', en: 'Luyao Huang' }, destination: { zh: '拼多多', en: 'Pinduoduo' }, homepage: null },
         { name: { zh: '籍佗', en: 'Tuo Ji' }, destination: { zh: '', en: '' }, homepage: null },
@@ -61,11 +61,10 @@ const alumniData = {
         { name: { zh: '任可', en: 'Ke Ren' }, destination: { zh: '字节跳动', en: 'ByteDance' }, homepage: null },
         { name: { zh: '施展', en: 'Zhan Shi' }, destination: { zh: '皇后大学博士研究生', en: 'PhD Student, Queen University' }, homepage: null },
         { name: { zh: '宋德敏', en: 'Demin Song' }, destination: { zh: '字节跳动', en: 'ByteDance' }, homepage: null },
-        { name: { zh: '苏津岳', en: 'Jinyue Su' }, destination: { zh: '', en: '' }, homepage: null },
         { name: { zh: '孙付', en: 'Fu Sun' }, destination: { zh: '阿里巴巴', en: 'Alibaba' }, homepage: null },
         { name: { zh: '孙驰', en: 'Chi Sun' }, destination: { zh: '腾讯', en: 'Tencent' }, homepage: null },
         { name: { zh: '孙瑜', en: 'Yu Sun' }, destination: { zh: '上海人工智能实验室', en: 'Shanghai AI Laboratory' }, homepage: null },
-        { name: { zh: '汤琼', en: 'Qiong Tang' }, destination: { zh: '日行迹', en: 'Riji' }, homepage: null },
+        { name: { zh: '汤琼', en: 'Qiong Tang' }, destination: { zh: '日行迹', en: 'Analemma' }, homepage: null },
         { name: { zh: '田乐', en: 'Le Tian' }, destination: { zh: '微软', en: 'Microsoft' }, homepage: null },
         { name: { zh: '王丹青', en: 'Danqing Wang' }, destination: { zh: '字节跳动', en: 'ByteDance' }, homepage: null },
         { name: { zh: '王少敬', en: 'Shaojing Wang' }, destination: { zh: '拼多多', en: 'Pinduoduo' }, homepage: null },
@@ -101,10 +100,9 @@ const alumniData = {
         { name: { zh: '陈丹露', en: 'Danlu Chen' }, destination: { zh: '加州大学圣地亚哥分校博士研究生', en: 'PhD Student, UCSD' }, homepage: 'http://taineleau.cc' },
         { name: { zh: '陈楷予', en: 'Kaiyu Chen' }, destination: { zh: '加州大学伯克利分校硕士研究生', en: 'MS Student, UC Berkeley' }, homepage: null },
         { name: { zh: '戴宁', en: 'Ning Dai' }, destination: { zh: '俄勒冈州立大学博士研究生', en: 'PhD Student, Oregon State University' }, homepage: 'https://ndai.ai/' },
-        { name: { zh: '胡志峰', en: 'Zhifeng Hu' }, destination: { zh: '', en: '' }, homepage: null },
-        { name: { zh: '蒋子恒', en: 'Ziheng Jiang' }, destination: { zh: '字节跳动首席研究科学家', en: 'Principal Research Scientist, ByteDance' }, homepage: 'https://ziheng.org/' },
-        { name: { zh: '裴恒志', en: 'Hengzhi Pei' }, destination: { zh: '', en: '' }, homepage: null },
-        { name: { zh: '苏津岳', en: 'Jinyue Su' }, destination: { zh: '', en: '' }, homepage: null },
+        { name: { zh: '胡志峰', en: 'Zhifeng Hu' }, destination: { zh: '乾象投资', en: 'Qianxiang Investment' }, homepage: null },
+        { name: { zh: '裴恒志', en: 'Hengzhi Pei' }, destination: { zh: '美国AWS', en: 'AWS, USA' }, homepage: null },
+        { name: { zh: '苏津岳', en: 'Jinyue Su' }, destination: { zh: 'Accutar Biotechnology', en: 'Accutar Biotechnology' }, homepage: null },
         { name: { zh: '徐嘉诚', en: 'Jiacheng Xu' }, destination: { zh: 'Salesforce AI研究科学家', en: 'Research Scientist, Salesforce AI Research' }, homepage: 'https://jiacheng-xu.github.io/' },
         { name: { zh: '杨永祎', en: 'Yongyi Yang' }, destination: { zh: '密歇根大学博士研究生', en: 'PhD Student, University of Michigan' }, homepage: 'https://fftyyy.github.io/' }
     ],
