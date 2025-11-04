@@ -1,0 +1,22 @@
+name: Compress images automatically
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '**/*.png'
+      - '**/*.jpg'
+      - '**/*.jpeg'
+
+jobs:
+  compress:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # 使用 Calibre 的图片压缩 Action（会自动提交优化结果）
+      - name: Compress images
+        uses: calibreapp/image-actions@v1
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          compressOnly: true
