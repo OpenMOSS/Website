@@ -1011,3 +1011,107 @@ h3.year-badge {
     font-size: 13px;
   }
 }
+
+/* ========== Position Detail Page Anchor Scroll ========== */
+#phd, #master, #postdoc, #visiting, #engineer, #intern {
+  scroll-margin-top: 80px;
+}
+
+/* ========== Highlight Grid 3-column Layout ========== */
+.highlight-grid-3 {
+  grid-template-columns: repeat(3, 1fr) !important;
+  max-width: 100%;
+}
+
+@media (max-width: 968px) {
+  .highlight-grid-3 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .highlight-grid-3 {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ========== Why Join Us Cards ========== */
+.why-join-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.why-join-card {
+  background-color: white;
+  padding: 28px 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  text-align: center;
+  border: 1px solid var(--border);
+}
+
+.why-join-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 87, 166, 0.15);
+  border-color: var(--fudan-blue);
+}
+
+.why-join-icon {
+  font-size: 40px;
+  margin-bottom: 16px;
+  line-height: 1;
+  animation: float 3s ease-in-out infinite;
+}
+
+.why-join-card:nth-child(1) .why-join-icon { animation-delay: 0s; }
+.why-join-card:nth-child(2) .why-join-icon { animation-delay: 0.5s; }
+.why-join-card:nth-child(3) .why-join-icon { animation-delay: 1s; }
+.why-join-card:nth-child(4) .why-join-icon { animation-delay: 1.5s; }
+.why-join-card:nth-child(5) .why-join-icon { animation-delay: 2s; }
+.why-join-card:nth-child(6) .why-join-icon { animation-delay: 2.5s; }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.why-join-card h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--charcoal);
+  margin: 0 0 10px 0;
+}
+
+.why-join-card p {
+  font-size: 14px;
+  color: var(--text-soft);
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 968px) {
+  .why-join-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}
+
+@media (max-width: 640px) {
+  .why-join-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .why-join-card {
+    padding: 24px 20px;
+  }
+  
+  .why-join-icon {
+    font-size: 36px;
+    margin-bottom: 14px;
+  }
+}
