@@ -476,6 +476,11 @@ html[lang="en"] .pillar-card:nth-child(n+4) h3 {
   margin-bottom: 12px;
 }
 
+/* 中文版：resources 页面标题下文字上移 */
+html[lang="zh-CN"] .highlight-card h3 {
+  margin-bottom: 6px;
+}
+
 .highlight-card p {
   flex-grow: 1;
   margin-bottom: 15px;
