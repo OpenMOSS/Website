@@ -412,7 +412,7 @@
       'people.member1.name': 'Xipeng Qiu',
       'people.member1.title': 'Professor, Lab Director',
       'people.member2.name': 'Xinchi Chen',
-      'people.member2.title': 'Tenure-track Professor',
+      'people.member2.title': 'Professor',
       'people.member3.name': 'Tao Ji',
       'people.member3.title': 'Assistant Professor',
       'people.member4.name': 'Jingjing Gong',
