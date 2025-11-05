@@ -28,7 +28,7 @@ const teamData = {
             },
             title: {
                 zh: '青年研究员',
-                en: 'Tenure-track Professor'
+                en: 'Professor'
             },
             photo: 'assets/img/Xinchi Chen.jpg',
             email: 'chenxinchi@fudan.edu.cn',
