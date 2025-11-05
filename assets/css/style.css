@@ -243,16 +243,23 @@ nav.navbar {
   margin-bottom: 24px;
 }
 
-.hero-full .lead {
+.hero-description {
   max-width: 100%;
   margin-bottom: 32px;
-  line-height: 1.8;
 }
 
-.hero-full .lead br {
-  content: "";
-  display: block;
-  margin-bottom: 12px;
+.hero-description .lead {
+  margin-bottom: 16px;
+  line-height: 1.8;
+  text-align: justify;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.hero-description .lead:last-child {
+  margin-bottom: 0;
 }
 
 .eyebrow {
