@@ -564,7 +564,7 @@
       'positionsPage.why.career': 'Career Development',
       'positionsPage.why.careerDesc': 'Alumni at top universities and tech companies,<br>providing broad career opportunities',
       'positionsPage.apply.title': 'How to Apply',
-      'positionsPage.apply.desc': 'If you are interested in any of the above positions, please fill out the <a href="https://fudannlp.feishu.cn/share/base/form/shrcn29UYq1MCpTH0GBZh3AWPPg" target="_blank" style="color: var(--fudan-blue); text-decoration: underline;">application form</a>',
+      'positionsPage.apply.desc': 'If you are interested in any of the above positions, please fill out the <a href="https://fudan-nlp.feishu.cn/share/base/form/shrcnnTt5A5tygeK6mMj0gyZKJd" target="_blank" style="color: var(--fudan-blue); text-decoration: underline;">application form</a>',
       'positionsPage.applyBtn': 'Fill Application Form',
       'positionsPage.backHome': 'Back to Home',
 
@@ -697,6 +697,18 @@
     if (langBtn) {
       langBtn.textContent = lang === 'zh-CN' ? '英文' : 'Chinese';
     }
+
+    // 动态更新申请表单链接（根据语言切换）
+    const applicationFormLinks = document.querySelectorAll('a[href*="fudannlp.feishu.cn/share/base/form"], a[href*="fudan-nlp.feishu.cn/share/base/form"]');
+    applicationFormLinks.forEach(link => {
+      if (lang === 'en') {
+        // 英文版使用新的链接
+        link.href = 'https://fudan-nlp.feishu.cn/share/base/form/shrcnnTt5A5tygeK6mMj0gyZKJd';
+      } else {
+        // 中文版保持原来的链接
+        link.href = 'https://fudannlp.feishu.cn/share/base/form/shrcn29UYq1MCpTH0GBZh3AWPPg';
+      }
+    });
 
     // 保存到 localStorage
     localStorage.setItem('lang', lang);
