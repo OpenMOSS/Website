@@ -14,6 +14,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -26,10 +28,11 @@ jobs:
       - name: Convert & compress images toward <=200KB
         shell: bash
         run: |
-          set -e
+          set -euo pipefail
 
-          mapfile -t FILES < <(git ls-files | grep -Ei '\.(jpg|jpeg|png)$')
+          mapfile -t FILES < <(git ls-files | grep -Ei '\.(jpg|jpeg|png)$' || true)
 
+          echo "Found ${#FILES[@]} image(s)."
           if [ ${#FILES[@]} -eq 0 ]; then
             echo "No images to optimize."
             exit 0
@@ -42,38 +45,56 @@ jobs:
             echo "Processing: $f"
 
             out="${f%.*}.webp"
-
-            # 初次压缩
-            npx @squoosh/cli --webp auto --resize "max_width=${MAXW}" -d /tmp "$f" >/dev/null 2>&1 || true
             cand="/tmp/${out##*/}"
+
+            # 尝试生成 webp（不让它把整个 job 弄挂）
+            npx @squoosh/cli --webp auto --resize "max_width=${MAXW}" -d /tmp "$f" >/dev/null 2>&1 || true
 
             if [ -f "$cand" ]; then
               size=$(wc -c < "$cand")
             else
-              size=999999999
+              echo "  WARN: squoosh did not produce $cand (skipping this file)"
+              continue
             fi
 
-            # 如果超 200KB，逐步降低质量
             if [ "$size" -gt "$TARGET" ]; then
               for q in 85 80 75 70 65 60; do
                 npx @squoosh/cli --webp "quality=${q}" --resize "max_width=${MAXW}" -d /tmp "$f" >/dev/null 2>&1 || true
-                cand="/tmp/${out##*/}"
-                size=$(wc -c < "$cand")
-                echo "  Try quality=$q -> ${size} bytes"
+
+                if [ -f "$cand" ]; then
+                  size=$(wc -c < "$cand")
+                  echo "  Try quality=$q -> ${size} bytes"
+                else
+                  echo "  WARN: squoosh did not produce $cand at quality=$q"
+                  size=999999999
+                fi
+
                 [ "$size" -le "$TARGET" ] && break
               done
             fi
 
-            # 替换原图
             if [ -f "$cand" ]; then
               mv "$cand" "$out"
-              git rm -f --quiet "$f"
+              git rm -f --quiet "$f" || true
               git add "$out"
               echo "  -> Saved as $out"
+            else
+              echo "  WARN: no output produced for $f, leaving original."
             fi
           done
 
+      - name: Check if repo changed
+        id: changes
+        shell: bash
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Commit optimized images
+        if: steps.changes.outputs.changed == 'true'
         uses: EndBug/add-and-commit@v9
         with:
           message: "chore: optimize images to ~200KB (webp)"
