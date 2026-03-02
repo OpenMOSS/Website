@@ -109,7 +109,7 @@ const teamData = {
                 zh: '教职工',
                 en: 'Faculty'
             },
-            photo: 'assets/img/Jinlan Fu.jpg'
+            photo: 'assets/img/Jinlanfu2.jpg'
         }
     ],
 
