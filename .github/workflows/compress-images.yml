@@ -28,49 +28,43 @@ jobs:
         run: |
           set -e
 
-          # 需要处理的文件（排除已经是 webp 的）
           mapfile -t FILES < <(git ls-files | grep -Ei '\.(jpg|jpeg|png)$')
 
-          # 如果没有新图，直接退出
           if [ ${#FILES[@]} -eq 0 ]; then
             echo "No images to optimize."
             exit 0
           fi
 
-          # 目标上限（字节）
           TARGET=200000
-
-          # 最大宽度（超过就等比缩小；自行调整，如 1600/1920）
           MAXW=1920
 
           for f in "${FILES[@]}"; do
             echo "Processing: $f"
 
-            # 临时输出名（先转 webp）
             out="${f%.*}.webp"
 
-            # 先做一次“温和”压缩与缩放
+            # 初次压缩
             npx @squoosh/cli --webp auto --resize "max_width=${MAXW}" -d /tmp "$f" >/dev/null 2>&1 || true
             cand="/tmp/${out##*/}"
 
-            # 如果仍超 200KB，则逐步降低质量重试
             if [ -f "$cand" ]; then
-              size=$(stat -c%s "$cand" 2>/dev/null || stat -f%z "$cand")
+              size=$(wc -c < "$cand")
             else
               size=999999999
             fi
 
+            # 如果超 200KB，逐步降低质量
             if [ "$size" -gt "$TARGET" ]; then
               for q in 85 80 75 70 65 60; do
                 npx @squoosh/cli --webp "quality=${q}" --resize "max_width=${MAXW}" -d /tmp "$f" >/dev/null 2>&1 || true
                 cand="/tmp/${out##*/}"
-                size=$(stat -c%s "$cand" 2>/dev/null || stat -f%z "$cand")
+                size=$(wc -c < "$cand")
                 echo "  Try quality=$q -> ${size} bytes"
                 [ "$size" -le "$TARGET" ] && break
               done
             fi
 
-            # 用 webp 替换原图（也可以选择另存到 assets/img/optimized/）
+            # 替换原图
             if [ -f "$cand" ]; then
               mv "$cand" "$out"
               git rm -f --quiet "$f"
@@ -82,5 +76,5 @@ jobs:
       - name: Commit optimized images
         uses: EndBug/add-and-commit@v9
         with:
-          message: "chore: optimize images to ~200KB (webp, resize, quality step-down)"
+          message: "chore: optimize images to ~200KB (webp)"
           add: "."
