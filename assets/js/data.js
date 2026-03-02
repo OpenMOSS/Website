@@ -98,6 +98,18 @@ const teamData = {
             },
             photo: 'assets/img/郑逸宁.jpg',
             homepage: 'https://github.com/WillQvQ'
+        },
+        {
+            id: 'jinlan-fu',
+            name: {
+                zh: '傅金兰',
+                en: 'Jinlan Fu'
+            },
+            title: {
+                zh: '教职工',
+                en: 'Faculty'
+            },
+            photo: 'assets/img/Jinlan Fu.jpg'
         }
     ],
 
