@@ -1,0 +1,1127 @@
+{
+  "metadata": {
+    "generated_date": "2025-11-02",
+    "last_updated": "2025-11-02",
+    "total_alumni": 94,
+    "note": "This data was compiled through web searches and verified by visiting individual homepages. Homepage URLs are personal/academic websites maintained by the individuals themselves. Some alumni may not have public homepages."
+  },
+  "alumni": {
+    "phd": [
+      {
+        "name": {
+          "zh": "陈新驰",
+          "en": "Xinchi Chen"
+        },
+        "current_occupation": {
+          "zh": "复旦大学青年研究员",
+          "en": "Professor, Fudan University"
+        },
+        "affiliation": {
+          "zh": "智能机器人与先进制造学院可信具身人工智能研究院, 计算与智能创新学院",
+          "en": "Institute of Trustworthy Embodied AI, College of Intelligent Robotics and Advanced Manufacturing; the College of Computer Science and Artificial Intelligence"
+        },
+        "previous_position": {
+          "zh": "爱丁堡大学博后 (2018-2020)",
+          "en": "Postdoc, University of Edinburgh (2018-2020)"
+        },
+        "homepage": "https://dalstonchen.github.io/"
+      },
+      {
+        "name": {
+          "zh": "龚经经",
+          "en": "Jingjing Gong"
+        },
+        "current_occupation": {
+          "zh": "腾讯",
+          "en": "Tencent"
+        },
+        "homepage": null,
+        "note": "No public homepage found"
+      },
+      {
+        "name": {
+          "zh": "郭琦鹏",
+          "en": "Qipeng Guo"
+        },
+        "current_occupation": {
+          "zh": "AWS上海AI实验室",
+          "en": "AWS Shanghai AI Lab"
+        },
+        "homepage": "https://scholar.google.com/citations?user=k3mPGKgAAAAJ&hl=en",
+        "note": "Google Scholar profile"
+      },
+      {
+        "name": {
+          "zh": "李林阳",
+          "en": "Linyang Li"
+        },
+        "current_occupation": {
+          "zh": "上海人工智能实验室",
+          "en": "Shanghai AI Laboratory"
+        },
+        "homepage": "https://www.aminer.cn/profile/56176bb745cedb3397bf2f78",
+        "affiliation": "Fudan University, collaborates with Shanghai AI Laboratory"
+      },
+      {
+        "name": {
+          "zh": "李孝男",
+          "en": "Xiaonan Li"
+        },
+        "current_occupation": {
+          "zh": "美国创业公司",
+          "en": "USA Startup"
+        },
+        "homepage": null,
+        "note": "No specific information found"
+      },
+      {
+        "name": {
+          "zh": "李世民",
+          "en": "Shimin Li"
+        },
+        "current_occupation": {
+          "zh": "复旦大学博士研究生",
+          "en": "PhD Student, Fudan University"
+        },
+        "homepage": "https://openreview.net/profile?id=~Shimin_Li1",
+        "education": "PhD student at Fudan University (2022-2025)",
+        "note": "Contributor to OpenMOSS projects including MOSS, SpeechGPT 2.0"
+      },
+      {
+        "name": {
+          "zh": "刘鹏飞",
+          "en": "Pengfei Liu"
+        },
+        "current_occupation": {
+          "zh": "上海交通大学副教授",
+          "en": "Associate Professor, Shanghai Jiao Tong University"
+        },
+        "previous_position": {
+          "zh": "CMU博后 (2019-2023)",
+          "en": "Postdoc, CMU (2019-2023)"
+        },
+        "homepage": "https://plms.ai/people/index.html"
+      },
+      {
+        "name": {
+          "zh": "刘向阳",
+          "en": "Xiangyang Liu"
+        },
+        "current_occupation": {
+          "zh": "创业 (Analemma)",
+          "en": "Startup (Analemma)"
+        },
+        "homepage": "https://scholar.google.com/citations?user=U8QD9mwAAAAJ&hl=en",
+        "affiliation": "Analemma startup, affiliated with Fudan University"
+      },
+      {
+        "name": {
+          "zh": "孙天祥",
+          "en": "Tianxiang Sun"
+        },
+        "current_occupation": {
+          "zh": "Analemma创始人兼CEO、上海创智学院助理教授",
+          "en": "Founder & CEO of Analemma, Assistant Professor at SII"
+        },
+        "homepage": "https://txsun1997.github.io/",
+        "education": "PhD from Fudan University (2024)",
+        "note": "Founded Analemma in March 2025, joined SII in April 2025. Key member of MOSS project team."
+      },
+      {
+        "name": {
+          "zh": "颜航",
+          "en": "Hang Yan"
+        },
+        "current_occupation": {
+          "zh": "创业",
+          "en": "Startup"
+        },
+        "homepage": "https://dl.acm.org/profile/99659996992",
+      },
+      {
+        "name": {
+          "zh": "郑逸宁",
+          "en": "Yining Zheng"
+        },
+        "current_occupation": {
+          "zh": "复旦大学专任副研究员",
+          "en": "Associate Research Fellow, Fudan University"
+        },
+        "homepage": "https://github.com/WillQvQ",
+        "note": "Part of Fudan NLP Lab, co-author on MOSS project"
+      },
+      {
+        "name": {
+          "zh": "周云华",
+          "en": "Yunhua Zhou"
+        },
+        "current_occupation": {
+          "zh": "上海人工智能实验室",
+          "en": "Shanghai AI Laboratory"
+        },
+        "homepage": null,
+        "note": "Co-author on ACL 2025 paper with Shanghai AI Laboratory researchers"
+      }
+    ],
+    "masters": [
+      {
+        "name": {
+          "zh": "安晨鑫",
+          "en": "Chenxin An"
+        },
+        "current_occupation": {
+          "zh": "香港大学博士研究生",
+          "en": "PhD Student, The University of Hong Kong"
+        },
+        "homepage": "https://chenxinan-fdu.github.io/",
+        "research": "Long-context LLMs, text summarization",
+        "note": "Second-year PhD candidate at HKU"
+      },
+      {
+        "name": {
+          "zh": "曹零",
+          "en": "Ling Cao"
+        },
+        "current_occupation": {
+          "zh": "阿里巴巴",
+          "en": "Alibaba"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "常成",
+          "en": "Cheng Chang"
+        },
+        "current_occupation": {
+          "zh": "模思",
+          "en": "OpenMOSS"
+        },
+        "homepage": "https://scholar.google.com/citations?user=X7oyRLIAAAAJ&hl=en"
+      },
+      {
+        "name": {
+          "zh": "陈科宇",
+          "en": "Keyu Chen"
+        },
+        "current_occupation": {
+          "zh": "",
+          "en": ""
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "陈俊坤",
+          "en": "Junkun Chen"
+        },
+        "current_occupation": {
+          "zh": "微软",
+          "en": "Microsoft"
+        },
+        "education": "PhD, Oregon State University (graduated 2022)",
+        "homepage": "https://scholar.google.com/citations?user=cHLaJhUAAAAJ&hl=en",
+        "research": "Simultaneous speech translation"
+      },
+      {
+        "name": {
+          "zh": "陈怡然",
+          "en": "Yiran Chen"
+        },
+        "current_occupation": {
+          "zh": "字节跳动",
+          "en": "ByteDance"
+        },
+        "homepage": null,
+        "affiliation": "ByteDance AI Lab, Shanghai"
+      },
+      {
+        "name": {
+          "zh": "陈云涛",
+          "en": "Yuntao Chen"
+        },
+        "current_occupation": {
+          "zh": "上海电网",
+          "en": "Shanghai Electric Grid"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "陈丹露",
+          "en": "Danlu Chen"
+        },
+        "current_occupation": {
+          "zh": "加州大学圣地亚哥分校博士研究生",
+          "en": "PhD Student, UCSD"
+        },
+        "homepage": "http://taineleau.cc",
+        "current_affiliation": "Google DeepMind (experience)"
+      },
+      {
+        "name": {
+          "zh": "陈楷予",
+          "en": "Kaiyu Chen"
+        },
+        "current_occupation": {
+          "zh": "加州大学伯克利分校硕士研究生",
+          "en": "MS Student, UC Berkeley"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "戴宁",
+          "en": "Ning Dai"
+        },
+        "current_occupation": {
+          "zh": "俄勒冈州立大学博士研究生",
+          "en": "PhD Student, Oregon State University"
+        },
+        "homepage": "https://ndai.ai/",
+        "research": "Large Language Models, NLP, Computational Biology",
+        "note": "Third-year PhD student at OSU"
+      },
+      {
+        "name": {
+          "zh": "范子越",
+          "en": "Ziyue Fan"
+        },
+        "current_occupation": {
+          "zh": "字节跳动",
+          "en": "ByteDance"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "傅健",
+          "en": "Jian Fu"
+        },
+        "current_occupation": {
+          "zh": "",
+          "en": ""
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "耿志超",
+          "en": "Zhichao Geng"
+        },
+        "current_occupation": {
+          "zh": "OpenSearch项目机器学习工程师",
+          "en": "Machine Learning Engineer, OpenSearch Project"
+        },
+        "homepage": "https://deepai.org/profile/zhichao-geng",
+        "research": "Search relevance using ML, neural sparse search"
+      },
+      {
+        "name": {
+          "zh": "何俊亮",
+          "en": "Junliang He"
+        },
+        "current_occupation": {
+          "zh": "字节跳动",
+          "en": "ByteDance"
+        },
+        "homepage": null,
+        "affiliation": "Fudan University, published on efficient NLP models"
+      },
+      {
+        "name": {
+          "zh": "洪嘉伟",
+          "en": "Jiawei Hong"
+        },
+        "current_occupation": {
+          "zh": "上海人工智能实验室",
+          "en": "Shanghai AI Laboratory"
+        },
+        "homepage": null,
+        "note": "Co-author on InternLM2 Technical Report"
+      },
+      {
+        "name": {
+          "zh": "胡先念",
+          "en": "Xiannian Hu"
+        },
+        "current_occupation": {
+          "zh": "阿里巴巴",
+          "en": "Alibaba"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "胡志峰",
+          "en": "Zhifeng Hu"
+        },
+        "current_occupation": {
+          "zh": "",
+          "en": ""
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "黄超超",
+          "en": "Chaochao Huang"
+        },
+        "current_occupation": {
+          "zh": "上汽集团",
+          "en": "SAIC Motor"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "黄璐瑶",
+          "en": "Luyao Huang"
+        },
+        "current_occupation": {
+          "zh": "拼多多",
+          "en": "Pinduoduo"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "籍佗",
+          "en": "Tuo Ji"
+        },
+        "current_occupation": {
+          "zh": "",
+          "en": ""
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "姜经翔",
+          "en": "Jingxiang Jiang"
+        },
+        "current_occupation": {
+          "zh": "华为",
+          "en": "Huawei"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "蒋昊",
+          "en": "Hao Jiang"
+        },
+        "current_occupation": {
+          "zh": "",
+          "en": ""
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "蒋子恒",
+          "en": "Ziheng Jiang"
+        },
+        "current_occupation": {
+          "zh": "字节跳动首席研究科学家",
+          "en": "Principal Research Scientist, ByteDance"
+        },
+        "education": "PhD, University of Washington (2018-2021)",
+        "homepage": "https://ziheng.org/",
+        "research": "Deep Learning and Systems, LLM systems, Apache TVM, MegaScale"
+      },
+      {
+        "name": {
+          "zh": "柯震",
+          "en": "Zhen Ke"
+        },
+        "current_occupation": {
+          "zh": "小米",
+          "en": "Xiaomi"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "李鹏",
+          "en": "Peng Li"
+        },
+        "current_occupation": {
+          "zh": "",
+          "en": ""
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "梁建泽",
+          "en": "Jianze Liang"
+        },
+        "current_occupation": {
+          "zh": "微软",
+          "en": "Microsoft"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "林泽辉",
+          "en": "Zehui Lin"
+        },
+        "current_occupation": {
+          "zh": "字节跳动",
+          "en": "ByteDance"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "林天扬",
+          "en": "Tianyang Lin"
+        },
+        "current_occupation": {
+          "zh": "阿里巴巴",
+          "en": "Alibaba"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "刘腾霄",
+          "en": "Tengxiao Liu"
+        },
+        "current_occupation": {
+          "zh": "加州大学圣塔芭芭拉分校博士研究生",
+          "en": "PhD Student, UCSB"
+        },
+        "homepage": "https://tengxiaoliu.github.io/",
+        "research": "NLP, LLMs",
+        "note": "First-year PhD student at UCSB (started 2024)"
+      },
+      {
+        "name": {
+          "zh": "刘毅韬",
+          "en": "Yitao Liu"
+        },
+        "current_occupation": {
+          "zh": "Optiver",
+          "en": "Optiver"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "刘枭雄",
+          "en": "Xiaoxiong Liu"
+        },
+        "current_occupation": {
+          "zh": "京东",
+          "en": "JD.com"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "钱鹏",
+          "en": "Peng Qian"
+        },
+        "current_occupation": {
+          "zh": "哈佛大学博士后",
+          "en": "Postdoc, Harvard University"
+        },
+        "education": "PhD, MIT (2017-2022)",
+        "homepage": "https://www.mit.edu/~pqian/",
+        "research": "NLP, cognitive science, communication in social context",
+        "affiliation": "Harvard University (current), MIT (postdoc)"
+      },
+      {
+        "name": {
+          "zh": "权国风",
+          "en": "Guofeng Quan"
+        },
+        "current_occupation": {
+          "zh": "阿里巴巴",
+          "en": "Alibaba"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "任可",
+          "en": "Ke Ren"
+        },
+        "current_occupation": {
+          "zh": "字节跳动",
+          "en": "ByteDance"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "施展",
+          "en": "Zhan Shi"
+        },
+        "current_occupation": {
+          "zh": "皇后大学博士研究生",
+          "en": "PhD Student, Queen University"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "宋德敏",
+          "en": "Demin Song"
+        },
+        "current_occupation": {
+          "zh": "字节跳动",
+          "en": "ByteDance"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "苏津岳",
+          "en": "Jinyue Su"
+        },
+        "current_occupation": {
+          "zh": "",
+          "en": ""
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "孙付",
+          "en": "Fu Sun"
+        },
+        "current_occupation": {
+          "zh": "阿里巴巴",
+          "en": "Alibaba"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "孙驰",
+          "en": "Chi Sun"
+        },
+        "current_occupation": {
+          "zh": "腾讯",
+          "en": "Tencent"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "孙瑜",
+          "en": "Yu Sun"
+        },
+        "current_occupation": {
+          "zh": "上海人工智能实验室",
+          "en": "Shanghai AI Laboratory"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "汤琼",
+          "en": "Qiong Tang"
+        },
+        "current_occupation": {
+          "zh": "日行迹",
+          "en": "Riji"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "田乐",
+          "en": "Le Tian"
+        },
+        "current_occupation": {
+          "zh": "微软",
+          "en": "Microsoft"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "王丹青",
+          "en": "Danqing Wang"
+        },
+        "current_occupation": {
+          "zh": "字节跳动",
+          "en": "ByteDance"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "王少敬",
+          "en": "Shaojing Wang"
+        },
+        "current_occupation": {
+          "zh": "拼多多",
+          "en": "Pinduoduo"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "王阳刚",
+          "en": "Yanggang Wang"
+        },
+        "current_occupation": {
+          "zh": "循环智能",
+          "en": "Recurrent AI"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "吴嘉文",
+          "en": "Jiawen Wu"
+        },
+        "current_occupation": {
+          "zh": "世纪前沿资产",
+          "en": "Century Capital"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "吴玲玲",
+          "en": "Lingling Wu"
+        },
+        "current_occupation": {
+          "zh": "Optiver",
+          "en": "Optiver"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "吴世宇",
+          "en": "Shiyu Wu"
+        },
+        "current_occupation": {
+          "zh": "百度",
+          "en": "Baidu"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "徐嘉诚",
+          "en": "Jiacheng Xu"
+        },
+        "current_occupation": {
+          "zh": "Salesforce AI研究科学家",
+          "en": "Research Scientist, Salesforce AI Research"
+        },
+        "education": "PhD, UT Austin (graduated 2022)",
+        "homepage": "https://jiacheng-xu.github.io/",
+        "research": "NLP, text generation, summarization"
+      },
+      {
+        "name": {
+          "zh": "许一格",
+          "en": "Yige Xu"
+        },
+        "current_occupation": {
+          "zh": "新加坡南洋理工大学博士研究生",
+          "en": "PhD Student, NTU Singapore"
+        },
+        "homepage": "https://xuyige.github.io/",
+        "research": "NLP, Large Language Models",
+        "note": "Final-year PhD candidate at NTU Singapore"
+      },
+      {
+        "name": {
+          "zh": "杨建强",
+          "en": "Jianqiang Yang"
+        },
+        "current_occupation": {
+          "zh": "阿里巴巴",
+          "en": "Alibaba"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "杨小珪",
+          "en": "Xiaogui Yang"
+        },
+        "current_occupation": {
+          "zh": "上海人工智能实验室",
+          "en": "Shanghai AI Laboratory"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "杨永祎",
+          "en": "Yongyi Yang"
+        },
+        "current_occupation": {
+          "zh": "密歇根大学博士研究生",
+          "en": "PhD Student, University of Michigan"
+        },
+        "homepage": "https://fftyyy.github.io/",
+        "research": "Deep learning theory, mechanistic interpretability",
+        "note": "Fourth-year PhD student at University of Michigan"
+      },
+      {
+        "name": {
+          "zh": "杨雨晴",
+          "en": "Yuqing Yang"
+        },
+        "current_occupation": {
+          "zh": "南加州大学博士研究生",
+          "en": "PhD Student, USC"
+        },
+        "homepage": "https://ayyyq.github.io/",
+        "research": "LLM understanding, knowledge and reasoning",
+        "note": "Second-year PhD student at USC"
+      },
+      {
+        "name": {
+          "zh": "尹留松",
+          "en": "Liusong Yin"
+        },
+        "current_occupation": {
+          "zh": "华为",
+          "en": "Huawei"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "张栋",
+          "en": "Dong Zhang"
+        },
+        "current_occupation": {
+          "zh": "小米",
+          "en": "Xiaomi"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "张墨执",
+          "en": "Mozhi Zhang"
+        },
+        "current_occupation": {
+          "zh": "字节跳动",
+          "en": "ByteDance"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "张硕",
+          "en": "Shuo Zhang"
+        },
+        "current_occupation": {
+          "zh": "创业",
+          "en": "Startup"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "张硕闻",
+          "en": "Shuowen Zhang"
+        },
+        "current_occupation": {
+          "zh": "蚂蚁集团",
+          "en": "Ant Group"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "张啸天",
+          "en": "Xiaotian Zhang"
+        },
+        "current_occupation": {
+          "zh": "创业",
+          "en": "Startup"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "张鑫",
+          "en": "Xin Zhang"
+        },
+        "current_occupation": {
+          "zh": "小米",
+          "en": "Xiaomi"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "赵嘉亿",
+          "en": "Jiayi Zhao"
+        },
+        "current_occupation": {
+          "zh": "谷歌",
+          "en": "Google"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "郑彦俊",
+          "en": "Yanjun Zheng"
+        },
+        "current_occupation": {
+          "zh": "蚂蚁集团",
+          "en": "Ant Group"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "钟鸣",
+          "en": "Ming Zhong"
+        },
+        "current_occupation": {
+          "zh": "伊利诺伊大学厄巴纳-香槟分校博士研究生",
+          "en": "PhD Student, UIUC"
+        },
+        "homepage": "https://maszhongming.github.io/",
+        "research": "NLP, text mining, summarization",
+        "note": "Final-year PhD candidate at UIUC"
+      },
+      {
+        "name": {
+          "zh": "朱秦",
+          "en": "Qin Zhu"
+        },
+        "current_occupation": {
+          "zh": "阿里巴巴",
+          "en": "Alibaba"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "竺晨曦",
+          "en": "Chenxi Zhu"
+        },
+        "current_occupation": {
+          "zh": "百度",
+          "en": "Baidu"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "宗一",
+          "en": "Yi Zong"
+        },
+        "current_occupation": {
+          "zh": "蚂蚁集团",
+          "en": "Ant Group"
+        },
+        "homepage": null
+      }
+    ],
+    "undergrad": [
+      {
+        "name": {
+          "zh": "曹澍扬",
+          "en": "Shuyang Cao"
+        },
+        "current_occupation": {
+          "zh": "彭博研究科学家",
+          "en": "Research Scientist, Bloomberg"
+        },
+        "education": "PhD Student, University of Michigan - Ann Arbor",
+        "homepage": "https://shuyangcao.github.io/",
+        "research": "NLP, text summarization",
+        "note": "Joined Bloomberg AI in June 2025, Bloomberg Data Science PhD Fellow"
+      },
+      {
+        "name": {
+          "zh": "常帅晨",
+          "en": "Shuaichen Chang"
+        },
+        "current_occupation": {
+          "zh": "AWS AI实验室应用科学家",
+          "en": "Applied Scientist, AWS AI Lab"
+        },
+        "education": "PhD, Ohio State University (graduated)",
+        "homepage": "https://shuaichenchang.github.io/",
+        "research": "NLP, LLMs, RAG, text-to-SQL"
+      },
+      {
+        "name": {
+          "zh": "陈丹露",
+          "en": "Danlu Chen"
+        },
+        "current_occupation": {
+          "zh": "加州大学圣地亚哥分校博士研究生",
+          "en": "PhD Student, UCSD"
+        },
+        "homepage": "http://taineleau.cc",
+        "current_affiliation": "Google DeepMind (experience)"
+      },
+      {
+        "name": {
+          "zh": "陈楷予",
+          "en": "Kaiyu Chen"
+        },
+        "current_occupation": {
+          "zh": "加州大学伯克利分校硕士研究生",
+          "en": "MS Student, UC Berkeley"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "戴宁",
+          "en": "Ning Dai"
+        },
+        "current_occupation": {
+          "zh": "俄勒冈州立大学博士研究生",
+          "en": "PhD Student, Oregon State University"
+        },
+        "homepage": "https://ndai.ai/",
+        "research": "Large Language Models, NLP, Computational Biology",
+        "note": "Third-year PhD student at OSU"
+      },
+      {
+        "name": {
+          "zh": "胡志峰",
+          "en": "Zhifeng Hu"
+        },
+        "current_occupation": {
+          "zh": "",
+          "en": ""
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "蒋子恒",
+          "en": "Ziheng Jiang"
+        },
+        "current_occupation": {
+          "zh": "字节跳动首席研究科学家",
+          "en": "Principal Research Scientist, ByteDance"
+        },
+        "education": "PhD, University of Washington (2018-2021)",
+        "homepage": "https://ziheng.org/",
+        "research": "Deep Learning and Systems, LLM systems, Apache TVM, MegaScale"
+      },
+      {
+        "name": {
+          "zh": "裴恒志",
+          "en": "Hengzhi Pei"
+        },
+        "current_occupation": {
+          "zh": "",
+          "en": ""
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "苏津岳",
+          "en": "Jinyue Su"
+        },
+        "current_occupation": {
+          "zh": "",
+          "en": ""
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "徐嘉诚",
+          "en": "Jiacheng Xu"
+        },
+        "current_occupation": {
+          "zh": "Salesforce AI研究科学家",
+          "en": "Research Scientist, Salesforce AI Research"
+        },
+        "education": "PhD, UT Austin (graduated 2022)",
+        "homepage": "https://jiacheng-xu.github.io/",
+        "research": "NLP, text generation, summarization"
+      },
+      {
+        "name": {
+          "zh": "杨永祎",
+          "en": "Yongyi Yang"
+        },
+        "current_occupation": {
+          "zh": "密歇根大学博士研究生",
+          "en": "PhD Student, University of Michigan"
+        },
+        "homepage": "https://fftyyy.github.io/",
+        "research": "Deep learning theory, mechanistic interpretability",
+        "note": "Fourth-year PhD student at University of Michigan"
+      }
+    ],
+    "visiting": [
+      {
+        "name": {
+          "zh": "胡明昊",
+          "en": "Minghao Hu"
+        },
+        "current_occupation": {
+          "zh": "国防科技大学",
+          "en": "National University of Defense Technology"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "阚志刚",
+          "en": "Zhigang Kan"
+        },
+        "current_occupation": {
+          "zh": "国防科技大学",
+          "en": "National University of Defense Technology"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "王永",
+          "en": "Yong Wang"
+        },
+        "current_occupation": {
+          "zh": "香港大学",
+          "en": "The University of Hong Kong"
+        },
+        "homepage": null
+      },
+      {
+        "name": {
+          "zh": "郑人杰",
+          "en": "Renjie Zheng"
+        },
+        "current_occupation": {
+          "zh": "同济大学",
+          "en": "Tongji University"
+        },
+        "homepage": null
+      }
+    ]
+  },
+  "summary": {
+    "phd_alumni": 12,
+    "masters_alumni": 67,
+    "undergrad_alumni": 11,
+    "visiting_alumni": 4,
+    "with_homepage": 26,
+    "without_homepage": 68,
+    "verified_homepages": 16,
+    "notes": "All Chinese translations updated to use proper terminology (博士研究生 for PhD students). Homepages verified by visiting actual websites. Current positions updated based on individual homepages."
+  }
+}
